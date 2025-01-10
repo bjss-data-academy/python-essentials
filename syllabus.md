@@ -69,6 +69,8 @@ Basics of Python language and built-in data types that will be used during Spark
   - F strings
   - Operations on strings <https://www.w3schools.com/python/python_strings.asp>
 - Working with dates
+  ^^^ COMPLETE
+
 - If – else – elif
   - Whitespace defines code blocks
 - Loops
@@ -120,6 +122,10 @@ Basics of Python language and built-in data types that will be used during Spark
   - What they are and why useful
   - Import statement
   - Using an imported function / class
+- Pytest and unittesting basics
+  - intro to AAA
+  - Req as Code, observable behaviour, exec spec
+  - refer to adv TDD
 - Further Reading
   - BJSS Academy FP Python
   - W3Schools Python
