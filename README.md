@@ -44,4 +44,5 @@ Save and close the file.
 From a terminal window, run the file using `python3 hello.py`.
 
 You should see the cheery greeting from Python:
+
 ![Output of python program showing text](/images/hello-pythonic-world.png)
