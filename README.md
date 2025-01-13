@@ -16,3 +16,9 @@ If you need more information, see our guides at:
 - [Fundamentals of Programming 2](https://github.com/bjssacademy/fundamentals2)
 
 _note: you'll have to request access to these_
+
+# Next
+
+[Getting started](/getting-started.md) with Python
+
+[Back to contents](/contents.md)
