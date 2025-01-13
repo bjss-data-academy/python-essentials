@@ -17,8 +17,14 @@
 
 ## Making decisions with conditionals
 
-- [If – else – elif](/02-conditionals.md)
-  - Whitespace defines code blocks
+- [Basic if-else example](/02-conditionals.md)
+- If has a conditional expressions
+- Python uses whitespace for code blocks
+- Else introduces an alternate code path
+- Else is optional
+- Elif supports if - else - if chains
+- Logical operators in conditional expressions
+
 - Loops
 - Variable scope
 - Functions

@@ -19,7 +19,7 @@ Head over to [python downloads](https://python.org/downloads) and use the instal
 create a text file named `hello.py` containing:
 
 ```python
-print("Hell, Pythonic world!")
+print("Hello, Pythonic world!")
 ```
 
 Save and close the file.
