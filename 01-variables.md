@@ -292,3 +292,9 @@ There are some issues with computers storing binary values and accurately repres
 https://docs.python.org/3/tutorial/floatingpoint.html
 
 You'll sometimes come across such inaccuracies in Data Engineering. It's worth knowing where to look for more information.
+
+# Next
+
+[Making decisions with conditionals](/02-conditionals.md)
+
+[Back to contents](/contents.md)
