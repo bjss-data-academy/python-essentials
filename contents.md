@@ -1,21 +1,23 @@
 # Contents
 
-## [Getting started](/getting-started.md)
+## Getting started
 
-- Installing Python
+- [Installing Python](/getting-started.md)
 - Hello, Python World
 
-## [Working with basic variables](/01-variables.md) in Python
+## Working with basic variables
 
-- Variables
+- [Variables](/01-variables.md)
   - Built-in primitive types
   - Dynamic typing
-- Working with dates
+- Working with strings
   - F strings
   - Operations on strings
 - Working with dates
 
-- If – else – elif
+## Making decisions with conditionals
+
+- [If – else – elif](/02-conditionals.md)
   - Whitespace defines code blocks
 - Loops
 - Variable scope
