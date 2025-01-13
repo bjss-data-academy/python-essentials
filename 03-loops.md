@@ -12,6 +12,8 @@ for count in range (3):
 
 ```
 
+You can run this code in [/src/loops.py](/src/loops.py)
+
 Note:
 
 - `for` keyword
