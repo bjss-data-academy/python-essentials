@@ -25,7 +25,12 @@
 - Elif supports if - else - if chains
 - Logical operators in conditional expressions
 
-- Loops
+## Repeating tasks with loops
+
+- For loops
+- While loops
+- `break` and `continue` keywords
+
 - Variable scope
 - Functions
   - Overview
