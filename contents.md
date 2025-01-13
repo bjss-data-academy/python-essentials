@@ -27,12 +27,12 @@
 
 ## Repeating tasks with loops
 
-- For loops
+- [For loops](/03-loops.md)
 - While loops
 - `break` and `continue` keywords
 
-- Variable scope
 - Functions
+
   - Overview
   - Calling a function: print (“hello”)
     - Arguments – values we call with
@@ -46,10 +46,12 @@
       - Return value
     - Example function with multiple calls
   - Lambda
-- Data structures
+
+- Built-in data structures
+
   - Tuple
   - List
-    - Iteration
+    - Iterating over a list with for
     - CRUD operations
     - List comprehension
       - Filtering
@@ -59,6 +61,9 @@
     - CRUD operations
     - Lookup usage
   - Set
+
+- Variable scope
+
 - Functional Programming ideas
   - Why FP is useful for Data Engineering
   - Pure functions
