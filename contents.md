@@ -49,7 +49,7 @@
 
 - Built-in data structures
 
-  - Tuple
+  - [Tuple](/04-data-structures.md)
   - List
     - Iterating over a list with for
     - CRUD operations
