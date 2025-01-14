@@ -87,32 +87,32 @@ for user in users:
 
 ### Read a list element
 
+elements can be read by using a zero-based index from the start of the list:
+
 ```python
 # List
 users = ["alan", "beth", "chris"]
-print(users)
-```
-
-```python
-# Iterate list
-users = ["alan", "beth", "chris"]
-
-for user in users:
-    print("Iterate list:", user)
-
-# List CRUD - create list
-users = ["alan", "beth", "chris"]
-print("Original list:", users)
 
 # Read list element by zero based index
 firstUser = users[0]
-print("read by index", firstUser )
+print(firstUser )
+```
 
-# Read Negative index counts from end of list
+Or using a negative index based on the final element of the list:
+
+```python
+users = ["alan", "beth", "chris"]
 lastUser = users[-1]
 print("read by negative index", lastUser)
+```
 
-# Update element value
+### Update element value
+
+Lists can have their element values changed:
+
+```python
+users = ["alan", "beth", "chris"]
+
 users[1] = "barry"
 print( "Modify list element", users[1])
 ```
