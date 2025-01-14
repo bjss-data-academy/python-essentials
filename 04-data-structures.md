@@ -87,7 +87,7 @@ for user in users:
 
 ### Read a list element
 
-elements can be read by using a zero-based index from the start of the list:
+List elements can be read by using a zero-based index from the start of the list:
 
 ```python
 # List
@@ -98,12 +98,12 @@ firstUser = users[0]
 print(firstUser )
 ```
 
-Or using a negative index based on the final element of the list:
+A negative index will read an element relative to the end of the list:
 
 ```python
 users = ["alan", "beth", "chris"]
 lastUser = users[-1]
-print("read by negative index", lastUser)
+print(lastUser)
 ```
 
 ### Update element value
@@ -114,7 +114,7 @@ Lists can have their element values changed:
 users = ["alan", "beth", "chris"]
 
 users[1] = "barry"
-print( "Modify list element", users[1])
+print(users[1])
 ```
 
 ### Delete element by index
@@ -124,7 +124,7 @@ Individual elements can be deleted from the list using their index and `pop()`:
 ```python
 users = ["alan", "beth", "chris"]
 users.pop(1)
-print("delete (index)", users)
+print(users)
 ```
 
 ### Delete element by value
@@ -134,7 +134,7 @@ Elements can be deleted by their value:
 ```python
 users = ["alan", "beth", "chris"]
 users.remove("alan")
-print("delete (value)", users)
+print(users)
 ```
 
 ### Delete by value removes only first value
@@ -144,7 +144,7 @@ When deleting by value, only the _first_ occurrence from the start of the list w
 ```python
 users = ["alan", "beth", "chris", "alan"]
 users.remove("alan")
-print("delete (first value)",users)
+print(users)
 ```
 
 ### Delete last element
@@ -154,7 +154,7 @@ The final element of a list can be removed using `pop()` with no arguments:
 ```python
 users = ["alan", "beth", "chris"]
 users.pop()
-print("delete last element", users)
+print(users)
 ```
 
 ### Joining lists
