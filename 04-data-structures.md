@@ -2,6 +2,8 @@
 
 Python comes with powerful data structures built in to the language. They form a rich variety of ways to organise, group, store and find data.
 
+Code for this section can be found at [src/data-structures.py](/src/data-structures.py)
+
 ## Tuple
 
 A tuple is a simple group of values. The values may or may not be related to each other, although it is less mind-bending if they are related.
