@@ -206,17 +206,153 @@ A list comprehension will
 - after applying some filtering or modifying function
 - in a one-line syntax
 
-#### Filtering
+### List sort
 
-#### Using lambda syntax
+Lists have a method `sort()` which does what it says on the tin:
 
-#### Sorting
+```python
+users = ["alan", "chris", "george", "frank", "beth"]
+users.sort()
+print (users)
+```
+
+Other options are availble by using arguments to sort(). See [Python docs](https://docs.python.org/3/tutorial/datastructures.html) for details.
 
 ## Dictionary
 
-### CRUD operations
+Another major data structure in Python is the dictionary. This is a key-value store.
 
-### Lookup usage
+### Create a dictionary
+
+Here is a map used to look up email addresses for a username:
+
+```python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+print(email_by_name)
+```
+
+The key is written on the left of the colon. The associated value is on the right.
+
+### Lookup a dictionary value using the key
+
+Individual values can be looked up efficiently by the key:
+
+```python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+rosie_email = email_by_name["rosie"]
+print(rosie_email)
+```
+
+### Update a dictionary value
+
+We can update the value for a given key:
+
+```python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+email_by_name["rosie"] = "new_email_rosie@example.com"
+rosie_email = email_by_name["rosie"]
+print(rosie_email)
+```
+
+### Delete a dictionary value
+
+Deleting a key-value pair is easy enough:
+
+```python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+email_by_name.pop("rosie")
+print(email_by_name)
+```
+
+### Add a dictionary value
+
+Adding a key-value pair is done with the square bracket syntax:
+
+```python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+email_by_name["jenna"] = "jen@example.com"
+print(email_by_name)
+```
+
+### Loop through dictionary keys
+
+We can iterate over the keys in a dictionary:
+
+````python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+for name in email_by_name.keys():
+    print(name)```
+````
+
+giving
+
+```text
+alan
+rosie
+```
+
+### Loop through dictionary values
+
+We can iterate over the values in a dictionary:
+
+````python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+for email in email_by_name.values():
+    print(email)```
+````
+
+giving
+
+```text
+alan@example.com
+rosie@example.com
+```
+
+### Loop through dictionary key-value pairs
+
+Using `items()` to iterate over a dictionary returns tuples. We can unpack the tuples into key:value parts in the for loop:
+
+```python
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+for name, email in email_by_name.items():
+    print("name", name, "email", email)
+```
+
+### Dictionaries can contain any python data
+
+Dictionary values can themselves be tuples, lists, sets, or other dictionaries. Complex data structures can be built in this way.
 
 ## Set
 
@@ -225,3 +361,11 @@ A list comprehension will
 [05-???]()
 
 [Back to contents](/contents.md)
+
+```
+
+```
+
+```
+
+```

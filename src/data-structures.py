@@ -81,3 +81,81 @@ print("join lists", updated_users)
 users = ["alan", "aaron", "alicia", "beth", "chris"]
 users_shard_a = [u for u in users if u.startswith("a")]
 print("List comprehension", users_shard_a)
+
+# Sorted list
+users = ["alan", "chris", "george", "frank", "beth"]
+users.sort()
+print ("sorted users", users)
+
+# Map
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+print("create dictionary",email_by_name)
+
+# Lookup value
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+rosie_email = email_by_name["rosie"]
+print("lookup by key", rosie_email)
+
+# Update value for key
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+email_by_name["rosie"] = "new_email_rosie@example.com"
+rosie_email = email_by_name["rosie"]
+print("updated value",rosie_email)
+
+# Remove key-value pair
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+email_by_name.pop("rosie")
+print("removed key-value",email_by_name)
+
+# Add key-value pair
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+email_by_name["jenna"] = "jen@example.com"
+print("added key-value", email_by_name)
+
+# Loop through keys
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+for name in email_by_name.keys():
+    print("key", name)
+
+# Iterate values
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+for email in email_by_name.values():
+    print("value", email)
+
+# Iterate key-value pairs
+email_by_name = {
+    "alan":  "alan@example.com",
+    "rosie": "rosie@example.com"
+}
+
+for name, email in email_by_name.items():
+    print("name", name, "email", email)
+

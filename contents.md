@@ -52,7 +52,12 @@
   - [Tuple](/04-data-structures.md)
   - List
     - Iterating over a list with for
-    - CRUD operations
+    - Create a list
+    - Read a list element
+    - Update a list element
+    - Delete by index
+    - Delete element by value
+    - Joining lists
     - List comprehension
       - Filtering
       - Using lambda syntax
