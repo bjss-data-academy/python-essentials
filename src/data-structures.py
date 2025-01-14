@@ -72,8 +72,12 @@ users.append("danielle")
 print("append", users)
 
 # Join lists
-new_users = ["dave", "erica"]
-
 users = ["alan", "beth", "chris"]
+new_users = ["dave", "erica"]
 updated_users = users + new_users
 print("join lists", updated_users)
+
+# List comprehension
+users = ["alan", "aaron", "alicia", "beth", "chris"]
+users_shard_a = [u for u in users if u.startswith("a")]
+print("List comprehension", users_shard_a)
