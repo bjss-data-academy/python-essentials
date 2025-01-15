@@ -79,7 +79,7 @@
 
 # Objects and Object Oriented Programming
 
-- [Python objects](/06-objects.py)
+- [Python objects](/06-objects.md)
 - Explain data + methods bundled together
 - String object
   - upper()
