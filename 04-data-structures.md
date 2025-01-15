@@ -38,6 +38,8 @@ favouriteFoods = ("eggs", "sausage", "chips", "beans")
 print("unpacked:", foodA, foodB, foodC, foodD)
 ```
 
+There is also a star (\*) syntax that can be used to unpack multiple elements into a list.
+
 ### Tuple properties
 
 Tuples are
@@ -62,6 +64,8 @@ favouriteFoods = ("eggs", "sausage", "chips", "beans")
 for food in favouriteFoods:
     print("Iterate tuple:", food)
 ```
+
+Find out more at [Python tuple docs](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 
 ## List
 
@@ -218,7 +222,7 @@ users.sort()
 print (users)
 ```
 
-Other options are availble by using arguments to sort(). See [Python docs](https://docs.python.org/3/tutorial/datastructures.html) for details.
+Other options are availble by using arguments to sort(). See [Python list docs](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) for details.
 
 ## Dictionary
 
@@ -356,7 +360,72 @@ for name, email in email_by_name.items():
 
 Dictionary values can themselves be tuples, lists, sets, or other dictionaries. Complex data structures can be built in this way.
 
+Find out more at [Python dictionary docs](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+
 ## Set
+
+Sets contain data values where no two values can be the same.
+
+### Create a set
+
+We can create a set using the curly bracket notation:
+
+```python
+user_ids = {1001, 1002, 1004, 1000}
+print("user ids", user_ids)
+```
+
+### Iterate over set values
+
+Sets are iterated using `for`:
+
+```python
+user_ids = {1001, 1002, 1004, 1000}
+
+for id in user_ids:
+    print("user id", id)
+```
+
+### Test set contains value
+
+Check that a value is contained in a set using `in`:
+
+```python
+user_ids = {1001, 1002, 1004, 1000}
+
+if 1002 in user_ids:
+    print("user id 1002 is known")
+
+    user_ids.add(1002)
+    print("Add id 1002 - no change", user_ids)
+```
+
+### Test set does not contain value
+
+Test a value is not conatined using `not in`:
+
+```python
+user_ids = {1001, 1002, 1004, 1000}
+
+if 1003 not in user_ids:
+    print("user id 1003 not known")
+
+    # Add value
+    user_ids.add(1003)
+    print("Added id 1003", user_ids)
+
+    # Remove value
+    user_ids.remove(1003)
+    print("Removed id 1003", user_ids)
+```
+
+### Set based methods
+
+The set data type has a number of set-theory based methods.
+
+These allows us to find the intersection of two sets, the union of two sets, join sets and more. These methods are very useful in data engineering applications.
+
+Find out more details at the [Python set docs](https://docs.python.org/3/tutorial/datastructures.html#sets)
 
 # Next
 

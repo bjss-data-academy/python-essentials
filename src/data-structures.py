@@ -159,3 +159,33 @@ email_by_name = {
 for name, email in email_by_name.items():
     print("name", name, "email", email)
 
+
+# Sets
+user_ids = {1001, 1002, 1004, 1000}
+print("user ids", user_ids)
+
+# Iterate over set values
+for id in user_ids:
+    print("user id", id)
+
+# Test set contains value
+if 1002 in user_ids:
+    print("user id 1002 is known")
+
+    user_ids.add(1002)
+    print("Add id 1002 - no change", user_ids)
+    
+# Test set does not contain value
+if 1003 not in user_ids:
+    print("user id 1003 not known")
+
+    # Add value
+    user_ids.add(1003)
+    print("Added id 1003", user_ids)
+
+    # Remove value
+    user_ids.remove(1003)
+    print("Removed id 1003", user_ids)
+
+
+
