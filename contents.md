@@ -31,22 +31,6 @@
 - While loops
 - `break` and `continue` keywords
 
-- Functions
-
-  - Overview
-  - Calling a function: print (“hello”)
-    - Arguments – values we call with
-    - Returns
-    - Type hints
-  - Defining a function
-    - Signature
-      - Name – name what it does
-      - Parameters – name given to arguments in body
-      - Code block
-      - Return value
-    - Example function with multiple calls
-  - Lambda
-
 ## Built-in data structures
 
 - [Tuple](/04-data-structures.md)
@@ -77,7 +61,7 @@
   - functions references in variables
   - Functions passed to functions
 
-# Objects and Object Oriented Programming
+## Objects and Object Oriented Programming
 
 - [Python objects](/06-objects.md)
 - Explain data + methods bundled together
