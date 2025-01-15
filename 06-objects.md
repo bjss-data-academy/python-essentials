@@ -177,7 +177,7 @@ Notice how the include() method builds up the data points. We do not have to pas
 
 ### Add ability to join DataSet objects
 
-Let's add a `union` method to the `DataSet` class.
+Let's add a `join` method to the `DataSet` class.
 
 This method will take the data points of the object we pass to it, and include them:
 
