@@ -6,6 +6,8 @@ Objects form a nice way to organise code. They naturally split a large program u
 
 Knowing how to use the objects is essential to get the best out of Python and tools like PySpark.
 
+Code for this section is at [src/objects.py](/src/objects.py)
+
 ## Defining a simple class
 
 Let's start much simpler than PySpark.
