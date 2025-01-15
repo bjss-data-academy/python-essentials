@@ -429,14 +429,6 @@ Find out more details at the [Python set docs](https://docs.python.org/3/tutoria
 
 # Next
 
-[05-???]()
+[Functions and Functional Programming basics](/05-functions.md)
 
 [Back to contents](/contents.md)
-
-```
-
-```
-
-```
-
-```
