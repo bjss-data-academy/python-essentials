@@ -4,6 +4,8 @@ So far, our Python code has been one, giant 'shopping list' of instructions. Tha
 
 Fortunately, Python provides ways to organise our code. The simplest is a function.
 
+Code for this section is at [src/functions.py](/src/functions.py)
+
 ## Python functions
 
 A function is a reusable block of code that is given a name, supplied with some data to work with and returns a result.
