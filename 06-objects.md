@@ -8,7 +8,7 @@ Knowing how to use the objects is essential to get the best out of Python and to
 
 Code for this section is at [src/objects.py](/src/objects.py)
 
-## Defining a simple class
+## Create a class
 
 Let's start much simpler than PySpark.
 
@@ -47,7 +47,7 @@ Method `__init__` is known as a _constructor_. A constructor has one job: to get
 
 For `User` objects, each object has just one data value. This is stored in a _field_ called `_name`. This is a variable that belongs to each individual object we make. Each object has its own, unique `_name` field.
 
-### Creating object instances from a class
+### Create an object
 
 Let's create an object instance of class User (we term this _a user object_ as shorthand jargon):
 
@@ -63,7 +63,7 @@ Nice chap, so I hear.
 
 The constructor code finishes executing. An _object reference_ is returned for us to store in a variable, `user1`. this is how we access our new object. It's a variable just like any other.
 
-### Calling a method on the object instance
+### Call a method
 
 We now have a user object instance all ready to go. Let's call the greet method on it:
 
@@ -246,5 +246,7 @@ We will learn more about DataFrames in Apache Spark training.
 Take a sneak peak at the [PySpark DataFrame docs](https://spark.apache.org/docs/latest/api/python/getting_started/quickstart_df.html) to see how a simple class like our `Dataset` can be built upon.
 
 # Next
+
+[Working with Libraries](/07-libraries.md)
 
 [Back to Contents](/contents.md)

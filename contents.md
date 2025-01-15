@@ -64,22 +64,31 @@
 ## Objects and Object Oriented Programming
 
 - [Python objects](/06-objects.md)
-- Explain data + methods bundled together
-- String object
-  - upper()
-  - split()
-- Pyspark DataFrame object
-  - Overview
-  - Some methods
-  - Some examples
-- Libraries
-  - What they are and why useful
-  - Import statement
-  - Using an imported function / class
-- Pytest and unittesting basics
-  - intro to AAA
-  - Req as Code, observable behaviour, exec spec
-  - refer to adv TDD
-- Further Reading
-  - BJSS Academy FP Python
-  - W3Schools Python
+- Create a class
+- Create an object
+- Call a method
+- Creating a more representative class
+- Creating a DataSet class
+- Using the DataSet class
+- Add ability to join DataSet objects
+- Objects are Abstractions
+- Class DataFrame in PySpark
+
+# Libraries
+
+- [What are libraries?](/07-libraries.md)
+- Import statement
+- Using an imported function / class
+
+# Pytest and unittesting basics
+
+- [What is unit testing?](/08-unit-test.md)
+- intro to AAA
+- Req as Code, observable behaviour, exec spec
+- refer to adv TDD
+
+# Further reading
+
+- [Resources](/further.md)
+- BJSS Academy FP Python
+- W3Schools Python
