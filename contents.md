@@ -47,44 +47,47 @@
     - Example function with multiple calls
   - Lambda
 
-- Built-in data structures
+## Built-in data structures
 
-  - [Tuple](/04-data-structures.md)
-  - List
-    - Iterating over a list with for
-    - Create a list
-    - Read a list element
-    - Update a list element
-    - Delete by index
-    - Delete element by value
-    - Joining lists
-    - List comprehension
-      - Filtering
-      - Using lambda syntax
-      - Sorting
-  - Dictionary
-    - CRUD operations
-    - Lookup usage
-  - Set
+- [Tuple](/04-data-structures.md)
+- List
+  - Iterating over a list with for
+  - Create a list
+  - Read a list element
+  - Update a list element
+  - Delete by index
+  - Delete element by value
+  - Joining lists
+  - List comprehension
+    - Filtering
+    - Using lambda syntax
+    - Sorting
+- Dictionary
+  - CRUD operations
+  - Lookup usage
+- Sets
 
-- Variable scope
+## Functions and Functional Programming
 
-- Functional Programming ideas
-  - Why FP is useful for Data Engineering
-  - Pure functions
-  - Immutable data – create new, not modify old
-  - First class functions
-    - functions references in variables
-    - Functions passed to functions
-- Object basics
-  - Explain data + methods bundled together
-  - String object
-    - upper()
-    - split()
-  - Pyspark DataFrame object
-    - Overview
-    - Some methods
-    - Some examples
+- [Python functions](/05-functions.md)
+- lambdas
+- Pure functions
+- Immutable data – create new, not modify old
+- First class functions
+  - functions references in variables
+  - Functions passed to functions
+
+# Objects and Object Oriented Programming
+
+- [Python objects](/06-objects.py)
+- Explain data + methods bundled together
+- String object
+  - upper()
+  - split()
+- Pyspark DataFrame object
+  - Overview
+  - Some methods
+  - Some examples
 - Libraries
   - What they are and why useful
   - Import statement

@@ -93,13 +93,15 @@ print(result)
 
 
 # Date example
+import time
 from datetime import date
 
 today = date.today()
 
 my_birthday = date(2001, 12, 31)
-days_old = abs(today-my_birthday)
-print(f"I am {days_old.days} days old today")
+time_to_birthday = abs(my_birthday - today)
+print(time_to_birthday.days)
+
 
 # Complex numbers
 a = 2-3j # native complex literals supported
