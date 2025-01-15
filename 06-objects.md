@@ -173,7 +173,7 @@ This creates the following output:
 15.0
 ```
 
-Notice how the include() method builds up the data*points. We do not have to pass in the existing data points \_as the object instance knows them already*.
+Notice how the include() method builds up the data points. We do not have to pass in the existing data points _as the object instance knows them already_.
 
 ### Add ability to join DataSet objects
 
