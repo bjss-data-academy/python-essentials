@@ -4,23 +4,23 @@ Objects in Python are a way to bring together code with the data it works on.
 
 Objects form a nice way to organise code. They naturally split a large program up into smaller building blocks. This approach is known as Object Oriented Programming or OOP.
 
-Knowing how to use the objects is essential to get the best out of Python and tools like PySpark.
+Knowing how to use objects is essential to get the best out of Python and tools like PySpark.
 
 Code for this section is at [src/objects.py](/src/objects.py)
 
 ## Create a class
 
-Let's start much simpler than PySpark.
+Let's write some code to greet users of our system with a cheery message. We will use OO to do this.
 
-Let's create some objects that know how to greet a user of our system, then create two users for us to greet.
+We will end up with a separate object for each user in our system.
 
-Before we can create an object to represent a single user, we need to create a User class.
+Each one of our user objects shares things in common: the data about a user's name, and the logic to print a greeting message. We write this common code in a _class_. Python uses _class-based_ OO.
 
 A class is a blueprint from which we create all related objects.
 
-Our User class will describe what every user object has in common. This will be the code and data needed to make our greeting work. We will then create specific instances of this class, one per user.
+Once we have a class, we can make as many user objects as memory allows.
 
-The class represnts all users. the instances represent specific users.
+Let's write a class suitable for greeting our users. We will name it class `User`:
 
 ```python
 class User:
@@ -57,23 +57,29 @@ user1 = User("Alan")
 
 That one-liner create a user oject. You can see we use the class name `User` to specify which class we want an instance of.
 
-This line of code will call the `__init__` constructor method. It passes the argument `"Alan"` as an argument. When the constructor code runs, it will initialise the `_name` field to the value "Alan". So this user object represents a user called Alan.
+> User class -> common code and data across all users
+>
+> User object instances -> represent specific users
 
-Nice chap, so I hear.
+This line of code creates the object, then initialises it by calling the `__init__` constructor method. The user name "Alan" is passed as an argument. The constructor initialises the `_name` field to the value "Alan". So this user object represents a user called Alan.
 
-The constructor code finishes executing. An _object reference_ is returned for us to store in a variable, `user1`. this is how we access our new object. It's a variable just like any other.
+Nice chap that Alan, so I hear.
+
+The constructor code finishes executing. An _object reference_ is returned. This is how we access our object in future, so we store it in a variable `user1`.
 
 ### Call a method
 
-We now have a user object instance all ready to go. Let's call the greet method on it:
+We have an object instance - what next? We can call _methods_ on the object.
+
+Methods are fancy functions at heart. The difference is a method 'knows' about the methods and data inside that object instance, without having all that information passed in as arguments.
+
+Let's call the `greet()` method on our `user1` object:
 
 ```python
 user1.greet()
 ```
 
-This line calls the `greet` method on object instance `user1`.
-
-It shows the following console output:
+We see this output:
 
 ```text
 Welcome to Data Engineering, Alan
