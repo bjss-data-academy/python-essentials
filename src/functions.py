@@ -22,7 +22,7 @@ def add_book_mutating( books, new_book):
 books = ["Java OOP Done Right, Tom the Racer"]
 add_book_mutating(books, "Magnets, Bulbs and Batteries")
 
-## Note the input parmeter books has been changed!
+## Note the input parameter books has been changed!
 print(books)
 
 # Immutable
@@ -34,7 +34,7 @@ def add_book( books, new_book):
 books = ["Java OOP Done Right", "Tom the Racer", "Frankenstein"]
 updated_books = add_book(books, "Magnets, Bulbs and Batteries")
 
-## Note the input parmeter books has been changed!
+## Input parmeter books has NOT been changed!
 print("original books", books)
 print("updated books", updated_books)
 
