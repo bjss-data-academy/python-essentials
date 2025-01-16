@@ -146,7 +146,6 @@ This class has the following behaviour:
 - `include` will include a data point into the set
 - `sum` will calculate the sum of all data points in the data set
 - `mean` will calculate the mean value of all data points in the data set
-- `mean` will return 0.0 for an empty data set
 
 Review the code and satisfy yourself it can do these things.
 
