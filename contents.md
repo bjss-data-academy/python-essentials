@@ -74,27 +74,27 @@
 - Objects are Abstractions
 - Class DataFrame in PySpark
 
-# Libraries
+## Libraries
 
 - [What are libraries?](/07-libraries.md)
 - Import statement
 - Using an imported function / class
 
-# Pytest and unittesting basics
+## Pytest and unittesting basics
 
 - [What is unit testing?](/08-unit-test.md)
 - intro to AAA
 - Req as Code, observable behaviour, exec spec
 - refer to adv TDD
 
-# Exercises
+## Exercises
 
 - [Task 1](/exercises.md)
 - Task 2
 - Task 3
 - Task 4
 
-# Further reading
+## Further reading
 
 - [Resources](/further.md)
 - BJSS Academy FP Python
