@@ -25,15 +25,15 @@ Have a go at writing tests first as you add these features to `DataSet`:
 ## Task 3 Read CSV files
 
 - Create a class `DataSetReaderCsv' with a `parse(file)`method that returns a`DataSet`
-- This will need a unit test that is really a component test: it will need to access the file system
+- This will need a unit test that is really a component test: it will need to access the file system. we will need files that allow us to test a range of possible inputs to our reader.
 
 ## Task 4 scrape a web page
 
 - Create a class `DataSetReaderWeb' with a `parse(url)`method that returns a`DataSet`
 - Use the beautiful soup library to parse html and extract the numbers to include in a DataSet object
-- Use this web page: https://github.com/bjss-data-academy/python-essentials/tree/main/src/results-data.html as source
+- Use this web page: https://raw.githubusercontent.com/bjss-data-academy/python-essentials/refs/heads/main/src/results-data.html as source
 - This will need a unit test that is really a component test: it will need to access the web.
-  -- What sort of problems do we encounter when tests access the web?
+  -- What sort of problems might we encounter when tests access the web?
 
 # Next
 
