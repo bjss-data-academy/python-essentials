@@ -87,6 +87,13 @@
 - Req as Code, observable behaviour, exec spec
 - refer to adv TDD
 
+# Exercises
+
+- [Task 1](/exercises.md)
+- Task 2
+- Task 3
+- Task 4
+
 # Further reading
 
 - [Resources](/further.md)
