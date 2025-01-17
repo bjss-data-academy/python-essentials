@@ -186,6 +186,6 @@ For much more on this approach, have a look at our Academy guide to [Advanced TD
 
 # Next
 
-[Further reading](/further.md)
+[Python exercises](/exercises.md)
 
 [Back to Contents](/contents.md)
