@@ -22,6 +22,8 @@ Have a go at writing tests first as you add these features to `DataSet`:
 - range() returns a tuple of (min, max)
 - window(min, max) returns how many values lie within (min, max) bounds
 
+You might consider adding a Range data type using [one of these ideas](https://realpython.com/python-data-structures/#records-structs-and-data-transfer-objects)
+
 ## Task 3 Read CSV files
 
 - Create a class `DataSetReaderCsv' with a `parse(file)`method that returns a`DataSet`
