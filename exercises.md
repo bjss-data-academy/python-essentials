@@ -2,7 +2,7 @@
 
 Let's apply what we've learned.
 
-## Task 1 Test existing DataSet code
+## Task 1 Test existing `DataSet` code
 
 Write unit tests for our [`DataSet`](/src/dataset.py) class.
 
