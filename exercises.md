@@ -29,7 +29,7 @@ Have a go at writing tests first as you add these features to `DataSet`:
 
 ## Task 4 scrape a web page
 
-- Create a class `DataSetReaderWeb' with a `parse(url)`method that returns a`DataSet`
+- Create a class `DataSetReaderWeb` with a `parse(url)`method that returns a`DataSet`
 - Use the [beautiful soup](https://pypi.org/project/beautifulsoup4/) library to parse html and extract the numbers to include in a DataSet object
 - Use this web page: http://cyan-ali-20.tiiny.site as source (html from [src/test-results.html](src/test-results.html)
 - This will need a unit test that is really a component test: it will need to access the web.
