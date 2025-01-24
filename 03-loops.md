@@ -73,6 +73,6 @@ Both `break` and `continue` are best avoided as they complicate control flow. We
 
 # Next
 
-[Built-in data structires](04-data-structures.md)
+[Built-in data structures](04-data-structures.md)
 
 [Back to contents](/contents.md)
