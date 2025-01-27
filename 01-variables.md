@@ -1,5 +1,7 @@
 # Basic Variables
 
+> Code for this section [here](src/basic_variables.py)
+
 Python has a simple syntax to allow us to create a variable:
 
 ```python
