@@ -33,7 +33,7 @@ You might consider adding a Range data type using [one of these ideas](https://r
 
 - Create a class `DataSetReaderWeb` with a `parse(url)`method that returns a`DataSet`
 - Use the [beautiful soup](https://pypi.org/project/beautifulsoup4/) library to parse html and extract the numbers to include in a DataSet object
-- Use this web page: http://cyan-ali-20.tiiny.site as source (html from [src/test-results.html](src/test-results.html)
+- Use this web page: http://cyan-ali-20.tiiny.site as source (html from [src/results-data.html](src/results-data.html)
 - This will need a unit test that is really a component test: it will need to access the web.
   -- What sort of problems might we encounter when tests access the web?
 
