@@ -97,5 +97,3 @@
 ## Further reading
 
 - [Resources](/further.md)
-- BJSS Academy FP Python
-- W3Schools Python
