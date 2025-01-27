@@ -148,6 +148,8 @@ Fractions are one of those neat ideas that are brilliant when you need them.
 
 Docs: https://docs.python.org/3/library/fractions.html
 
+_not required for this course_
+
 ## Working with strings
 
 Python supports both single and double quotes, so you can easily mix and match quotes-inside-quotes:
@@ -162,7 +164,7 @@ Multiline strings are very useful:
 ```python
 many_lines = """I mean,
 just how
-many libes of text
+many lines of text
 do you
 really need?
 """
