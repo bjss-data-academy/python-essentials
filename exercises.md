@@ -26,7 +26,7 @@ You might consider adding a Range data type using [one of these ideas](https://r
 
 ## Task 3 Read CSV files
 
-- Create a class `DataSetReaderCsv' with a `parse(file)`method that returns a`DataSet`
+- Create a class `DataSetReaderCsv` with a `parse(file)`method that returns a`DataSet` object instance conatining the data from that file
 - This will need a unit test that is really a component test: it will need to access the file system. we will need files that allow us to test a range of possible inputs to our reader.
 
 ## Task 4 scrape a web page
