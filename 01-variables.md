@@ -57,7 +57,7 @@ Python supports other built-in data tyes, known as _primitives_:
 
 - `int` - integer numbers. Integers can be arbitrarily large
 - `float` - floating point numbers
-- `complex` - complex numbers (for example 2 +3i, think [Argand diagrams](https://en.wikipedia.org/wiki/Complex_plane))
+- `complex` - complex numbers (for example 2 +3i, think [Argand diagrams](https://en.wikipedia.org/wiki/Complex_plane)) _not required for this course_
 - `bool` - boolean TRUE|FALSE type
 - `NoneType` - signals the absence of any data type
 
