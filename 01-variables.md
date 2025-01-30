@@ -59,13 +59,11 @@ Python supports other built-in data tyes, known as _primitives_:
 
 - `int` - integer numbers. Integers can be arbitrarily large
 - `float` - floating point numbers
-- `complex` - _not required for this course_ - complex numbers (for example 2 +3i)
-- `bool` - boolean TRUE|FALSE type
-- `NoneType` - signals the absence of any data type
+- `bool` - boolean True|False type
 
 You can run some examples at [src/basic-variables.py](src/basic-variables.py)
 
-### Built in binary data types
+### Other built-in primitive types
 
 Python has types allowing individual bytes of memory to be represented:
 
@@ -73,7 +71,13 @@ Python has types allowing individual bytes of memory to be represented:
 - `bytearray`
 - `memoryview`
 
-These are of no immediate interest to our Data Engineering Spark training.
+There is a type to represent complex numbers, with real and imaginary parts :
+- `complex` - example 2+3i
+
+And a type representing "no type information":
+- `NoneType` - signals the absence of any data type
+
+These types are of no immediate interest to our Data Engineering Spark training.
 
 ## Dynamic typing
 
