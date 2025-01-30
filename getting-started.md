@@ -30,6 +30,8 @@ You should see the cheery greeting from Python:
 
 ![Output of python program showing text](/images/hello-pythonic-world.png)
 
+_(if you're feeling particularly lazy, the code is [here)(/src/hello.py), all one line of it :)_
+
 # Next
 
 [Working with basic variables](/01-variables.md) in Python
