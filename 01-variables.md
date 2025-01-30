@@ -15,7 +15,7 @@ You'll notice the simplicity here:
 - no explicit data type specified
 - no keyword like `const` or `var`.
 
-Python uses just the name, an assignment operator = and the value to assign.
+Python uses just the name, an assignment operator = and the value to assign. Simples.
 
 ## Naming rules
 
@@ -36,7 +36,7 @@ It's also a good Software Engineering idea to name variables after the informati
 
 - first_name
 - total_price
-- customer_firendly_name
+- customer_friendly_name
 
 Avoid misleading or nondescript names.
 
