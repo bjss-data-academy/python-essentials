@@ -5,7 +5,7 @@
 Python has a simple syntax to allow us to create a variable:
 
 ```python
-  first_name = "Alan"
+first_name = "Alan"
 ```
 
 We have a variable named `first_name` and it is initialised to the string value `"Alan"`.
@@ -45,8 +45,8 @@ Avoid misleading or nondescript names.
 While we didn't _specify_ a datatype, that doesn't mean there isn't one!
 
 ```python
-  first_name = "Alan"
-  print(typeof(first_name))
+first_name = "Alan"
+print(type(first_name))
 ```
 
 shows output:
