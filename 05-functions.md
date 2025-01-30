@@ -91,9 +91,9 @@ These are useful to pass into other unfctions as arguments. Common use cases inc
 
 ## Functional Programming ideas
 
-Python offers some support for the FUnctional Programming paradigm, and it is very useful in Data Engineering.
+Python offers some support for the Functional Programming paradigm. This is very useful in Data Engineering.
 
-An FP program organises code around transforms applied to a flow of data. Transforms are coded as functions/lambda. Data flows oftenm use Pyton built-in structures, such as tuples and lists.
+An FP program organises code around transforms applied to a flow of data. Transforms are coded as functions/lambda. Data flows often use Python built-in structures, such as tuples and lists.
 
 There are a few big ideas behind functional programming.
 
@@ -224,6 +224,8 @@ print("All filters applied", remaining_books)
 After running this code, we're left with only the book "Tom the Racer".
 
 This is a very powerful approach to composing functions in a Functional Programming paradigm.
+
+FP is not the only game in town. Let's look at another important programming paradigm - _object oriented programming_.
 
 # Next
 
