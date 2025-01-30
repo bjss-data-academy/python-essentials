@@ -110,13 +110,13 @@ Python is a _strongly typed, dynamically typed_ programming language.
 
 This differs from strong, static typed languages such as Go, Java, C++ and C#. In those languages, you cannot change data type after it has been defined. In Python you can, and this changes some Python idioms (_pythonic_ code) available to you.
 
-Different approaches to typing are swings and roundabouts, really. Static and dynamic typed languages have opposing strnegths and weaknesses. You win some, you lose some.
+Different approaches to typing are swings and roundabouts, really. Static and dynamic typed languages have opposing strengths and weaknesses. You win some, you lose some.
 
 ## Casting
 
 A _cast_ is when we take one data type and convert it into another. This is required in strongly typed languages. As one example, the text string `"26"` and the integer `26` are completely unrelated in a strongly typed language.
 
-Python allows us to explicitly change type using a cast:
+Python allows us to explicitly convert from one type to another using a cast:
 
 ```python
   quantity_as_text = "26"
